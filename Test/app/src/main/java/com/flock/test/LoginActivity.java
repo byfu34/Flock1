@@ -60,7 +60,7 @@ public class LoginActivity extends Activity {
 
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
         boolean hasLoggedIn = settings.getBoolean("loggedIn", false);
-        
+
 
     }
 

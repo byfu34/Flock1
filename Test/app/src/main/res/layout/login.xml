@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:clickable="true"
-    android:background="#ab41d8">
+    android:background="@color/colorFlock">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -28,7 +28,6 @@
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:layout_marginBottom="20dp"
-
             android:id="@+id/imageView"
             android:background="@drawable/flocklogo" />
 
